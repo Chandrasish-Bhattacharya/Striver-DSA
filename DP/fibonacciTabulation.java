@@ -8,6 +8,11 @@ public class fibonacciTabulation{
         int prev2 = 0;
         int prev1 = 1;
         for(int i = 2 ; i<= n ; i++){
+            // `dp.set(i, prev1 + prev2);` is updating the value at index `i` in the ArrayList `dp`
+            // with the sum of the previous two Fibonacci numbers (`prev1` and `prev2`). This step is
+            // part of the tabulation approach for calculating Fibonacci numbers, where the Fibonacci
+            // sequence is calculated iteratively by storing the values in an array (or ArrayList in
+            // this case) to avoid redundant calculations.
             dp.set(i , prev1 + prev2);
             prev2 = prev1;
             prev1 = dp.get(i);
