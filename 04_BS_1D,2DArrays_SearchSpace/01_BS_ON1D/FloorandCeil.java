@@ -33,7 +33,7 @@ public class FloorandCeil {
         int ans = 0;
         while (low <= high) {
             int mid = (high + low) / 2;
-            if (mid >= x) {
+            if (arr[mid] >= x) {
                 ans = mid;
                 high = mid - 1;
             } else
@@ -44,8 +44,8 @@ public class FloorandCeil {
 
     public static void main(String[] args) {
         int[] arr = { 3, 4, 4, 7, 8, 10 };
-        int x = 5;
+        int x = 8;
         System.out.println(
-                "The Floor value is : " + arr[lowerBound(arr, x)] + "The Ceiling value is : " + arr[highBound(arr, x)]);
+                "The Floor value is : " + arr[lowerBound(arr, x)] + "  The Ceiling value is : " + arr[highBound(arr, x)]);
     }
 }

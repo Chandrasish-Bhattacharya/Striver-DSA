@@ -67,6 +67,26 @@ public class ReverseDLL {
         return head;
     }
 
+    // lets code the optimal sol 
+   public static Node revOptimal(Node head) {
+    if (head == null || head.next == null) {
+        return head;
+    }
+
+    Node prev = null;
+    Node current = head;
+
+    while (current != null) {
+        prev = current.prev;
+        current.prev = current.next;
+        current.next = prev;
+        current = current.prev;
+    }
+
+    return prev.prev; // new head
+}
+
+
     public static void main(String[] args) {
         int[] arr = {12, 5, 6, 8, 4};
         // Convert the array to a doubly linked list
@@ -78,7 +98,7 @@ public class ReverseDLL {
 
         System.out.println("Doubly Linked List After Reversing :");
 
-        head = reverseDLL(head);
+        head = revOptimal(head);
         print(head);
 
     }
