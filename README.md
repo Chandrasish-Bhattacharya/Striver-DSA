@@ -1,98 +1,117 @@
-# 🚀 My DSA Repository  
-
-This repository is a personal collection of my solutions to various **Data Structures and Algorithms (DSA)** problems.  
-It serves as:  
-- 📖 A record of my **learning journey**.  
-- 📂 A well-organized resource for reviewing **fundamental concepts**.  
-- 🔎 A quick reference, structured **by topic** for easy navigation.  
+Perfect! Here's an enhanced version of your README with professional badges and a visual roadmap to make your repository stand out:
 
 ---
 
-## 📂 Folder Structure  
+# 🚀 Striver DSA Sheet – Solved by Chandrasish
 
+![GitHub repo size](https://img.shields.io/github/repo-size/Chandrasish-Bhattacharya/Striver-DSA)
+![Languages](https://img.shields.io/github/languages/count/Chandrasish-Bhattacharya/Striver-DSA)
+![Top Language](https://img.shields.io/github/languages/top/Chandrasish-Bhattacharya/Striver-DSA)
+![Last Commit](https://img.shields.io/github/last-commit/Chandrasish-Bhattacharya/Striver-DSA)
+![Stars](https://img.shields.io/github/stars/Chandrasish-Bhattacharya/Striver-DSA?style=social)
+
+Welcome to my curated repository of solutions to the [Striver DSA Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/), a structured roadmap for mastering Data Structures and Algorithms. This archive is crafted for learners, interviewees, and educators alike.
+
+---
+
+## 🧭 Visual Roadmap
+
+```mermaid
+graph TD;
+    A[Learn the Basics] --> B[Arrays]
+    B --> C[Binary Search]
+    C --> D[Strings]
+    D --> E[Linked Lists]
+    E --> F[Recursion]
+    F --> G[Stack & Queue]
+    G --> H[Greedy]
+    H --> I[Dynamic Programming]
+    I --> J[Trees]
+    J --> K[Patterns]
 ```
 
-.
-├── ARRAYS/       # Problems related to arrays
-├── DP/           # Dynamic Programming problems
-├── GREEDY/       # Greedy algorithm solutions
-├── HASH/         # Problems using hashing
-├── PATTERNS/     # Common pattern-based problems
-├── RECURSION/    # Recursion-based solutions
-├── TREE/         # Problems related to tree data structures
-└── README.md     # Project documentation
+---
 
-````
+## 🗂️ Folder Structure
+
+```
+├── 01_Learn The Basics/
+├── 03_ARRAYS/
+├── 04_BS_1D,2DArrays_SearchSpace/
+│   └── 01_BS_ON1D/
+├── 05_Strings/
+├── 06_LinkedList/
+├── 07_Recursion/
+├── 09_StackandQueues/
+├── DP/
+├── GREEDY/
+├── PATTERNS/
+├── TREE/
+└── README.md
+```
 
 ---
 
-## 🧩 Topics Covered  
+## 🧩 Topics Covered
 
-- **Arrays** → Fundamental + advanced array-based problems.  
-- **Dynamic Programming (DP)** → Optimized solutions for complex problems.  
-- **Greedy** → Algorithmic problems solved using the greedy approach.  
-- **Hashing** → Efficient lookup-based solutions using maps/sets.  
-- **Patterns** → Common coding patterns for problem-solving.  
-- **Recursion** → Classic problems solved with step-by-step recursion.  
-- **Trees** → Implementations and problems on various tree structures.  
+| Category            | Description |
+|---------------------|-------------|
+| Arrays              | Traversal, sorting, prefix/suffix logic |
+| Strings             | Palindromes, anagrams, pattern matching |
+| Linked Lists        | Reversal, cycle detection, merge operations |
+| Recursion           | Backtracking, base-case analysis |
+| Stack & Queue       | Monotonic stack, sliding window |
+| Binary Search       | Search space reduction on 1D/2D arrays |
+| Dynamic Programming | Memoization, tabulation, optimization |
+| Greedy              | Interval scheduling, coin problems |
+| Trees               | Traversals, BST operations, recursion |
+| Patterns            | Sliding window, two pointers, hashing |
 
 ---
 
-## ⚡ Getting Started  
-
-To get a local copy of this repository, follow these simple steps:  
+## ⚙️ How to Use
 
 ```bash
 # Clone the repository
-git clone https://github.com/Chandrasish-Bhattacharya/Your-Repo-Name.git
+git clone https://github.com/Chandrasish-Bhattacharya/Striver-DSA.git
 
 # Navigate into the project
-cd Your-Repo-Name
-````
+cd Striver-DSA
+```
 
-➡️ Explore any topic folder to view the code and explanations.
-➡️ Compile & run using a language compiler/interpreter (C++, Java, Python, etc.).
-
----
-
-## 📝 Solution Format
-
-Each solution includes:
-✅ Problem statement or reference link.
-✅ Explanation of the approach.
-✅ Code implementation.
-✅ Time & Space Complexity analysis.
-
----
-
-## 🤝 Contributing
-
-This is primarily a **personal repository**, but:
-
-* 💡 Suggestions & feedback are welcome.
-* 🛠️ Found a mistake or have a better approach? → Open an **Issue** or **Pull Request**.
+- 🔍 Browse topic-wise folders for code and explanations  
+- 🧪 Run solutions using your preferred language compiler (Java, Python, C++)  
+- 📊 Each solution includes:
+  - ✅ Problem link or description  
+  - ✅ Approach breakdown  
+  - ✅ Code implementation  
+  - ✅ Time & Space complexity analysis  
 
 ---
 
 ## 🛠 Tools Used
 
-* **VS Code** → Writing & debugging code.
-* **Git & GitHub** → Version control & collaboration.
+- **VS Code** – for writing and debugging  
+- **Git & GitHub** – for version control and collaboration  
+- **Java & Python** – primary languages used  
+
+---
+
+## 🤝 Contributions
+
+This is a personal learning archive, but:
+- 💡 Suggestions are welcome  
+- 🛠 Found a better approach? Feel free to open an Issue or Pull Request  
 
 ---
 
 ## ⭐ Support
 
-If you find this repository helpful:
-
-* ⭐ Star it on GitHub — it helps me stay motivated!
-* 🔗 Share with others who are learning DSA.
+If this helps you:
+- 🌟 Star the repo to show appreciation  
+- 🔗 Share with peers preparing for interviews or learning DSA  
+- 📺 Follow [DevMind Hub](https://www.youtube.com/@devmindhub) for visual walkthroughs and quiz sets  
 
 ---
 
-✨ *Happy Coding!* ✨
-
-```
-
-Do you want me to also add **badges** (like language used, last commit, stars, forks) at the top to make it look even more professional?
-```
+✨ _Happy Coding and Keep Building!_ ✨
