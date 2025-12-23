@@ -68,8 +68,8 @@ public class KadanesAlgorithm {
     }
 
     public static void main(String[] args) {
-        int[] arr = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
-        System.out.println(sol2(arr));
+        int[] arr = { 2, 3, 5, -2, 7, -4};
+        System.out.println(sol1(arr));
         int ans[] = follow(arr);
         for (int i = ans[0]; i <= ans[1]; i++) {
             System.out.print(arr[i] + " ");
