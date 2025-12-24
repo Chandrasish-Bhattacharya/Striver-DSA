@@ -1,17 +1,30 @@
-🚀 Striver DSA Sheet – Solved by Chandrasish
+# 📘 Striver DSA Solutions — Chandrasish Bhattacharya
 
+A structured, topic-wise archive of solutions to the Striver DSA Sheet. Built for learners, interviewees, and educators with clean implementations, clear reasoning, and consistent organization.
 
+---
 
+## 🚀 Quick Start
 
+```bash
+# Clone the repository
+git clone https://github.com/Chandrasish-Bhattacharya/Striver-DSA.git
+cd Striver-DSA
 
+# Browse topic-wise folders and run solutions using Java or Python
+```
 
+Each solution includes:
+- Problem link or description
+- Approach breakdown
+- Code implementation
+- Time & Space complexity analysis
 
+---
 
-Welcome to my curated repository of solutions to the Striver DSA Sheet, a structured roadmap for mastering Data Structures and Algorithms.
-This archive is crafted for learners, interviewees, and educators alike.
+## 🧭 Visual Roadmap
 
-🧭 Visual Roadmap
-mermaid
+```mermaid
 graph TD;
     A[Learn the Basics] --> B[Arrays]
     B --> C[Binary Search]
@@ -23,90 +36,109 @@ graph TD;
     H --> I[Dynamic Programming]
     I --> J[Trees]
     J --> K[Patterns]
-🗂️ Folder Structure
-Code
-├── 01_Learn The Basics/
-├── 03_ARRAYS/
-├── 04_BS_1D,2DArrays_SearchSpace/
-│   └── 01_BS_ON1D/
-├── 05_Strings/
-├── 06_LinkedList/
-├── 07_Recursion/
-├── 09_StackandQueues/
-├── DP/
-├── GREEDY/
-├── PATTERNS/
-├── TREE/
-└── README.md
-🧩 Topics Covered
-Category	Description
-Arrays	Traversal, sorting, prefix/suffix logic
-Strings	Palindromes, anagrams, pattern matching
-Linked Lists	Reversal, cycle detection, merge operations
-Recursion	Backtracking, base-case analysis
-Stack & Queue	Monotonic stack, sliding window
-Binary Search	Search space reduction on 1D/2D arrays
-Dynamic Programming	Memoization, tabulation, optimization
-Greedy	Interval scheduling, coin problems
-Trees	Traversals, BST operations, recursion
-Patterns	Sliding window, two pointers, hashing
-📈 Progress Tracker
+```
 
+---
 
+## 📂 Folder Index
 
+Folder | Coverage
+---|---
+01_Learn The Basics | Starter problems, fundamentals
+03_ARRAYS | Traversal, sorting, prefix/suffix logic
+04_BS_1D,2DArrays_SearchSpace/01_BS_ON1D | Binary search patterns
+05_Strings/Basics | String operations, algorithms
+06_LinkedList | Reversal, cycle detection, merging
+07_Recursion | Base cases, backtracking
+09_StackandQueues | Monotonic stacks, sliding window
+10_SlidingWindow&TwoPointerCombinedProblems/MediumProblems | Combined patterns
+15_Graphs_ConceptsAndProblems | Graph traversals, classical problems
+DP | Dynamic programming
+GREEDY | Greedy strategies and problems
+TREE | Binary trees, BST operations
+Some Infosys Question | Practice problems
 
+---
 
+## 📝 Problem Tracker
 
+A lightweight checklist mapped to Striver’s sheet. Tick off items as you solve them.
 
+Arrays
+- [ ] Kadane’s Algorithm (Maximum Subarray Sum)
+- [ ] Two Sum
+- [ ] Merge Intervals
+- [ ] Rotate Matrix
 
+Strings
+- [ ] Longest Palindromic Substring
+- [ ] Anagram Groups
+- [ ] String Matching (KMP)
 
-⚙️ How to Use
-bash
-# Clone the repository
-git clone https://github.com/Chandrasish-Bhattacharya/Striver-DSA.git
+Binary Search
+- [ ] First/Last Occurrence
+- [ ] Peak Element
+- [ ] Search in Rotated Array
 
-# Navigate into the project
-cd Striver-DSA
-🔍 Browse topic-wise folders for code and explanations
+Linked List
+- [ ] Reverse Linked List
+- [ ] Detect Cycle
+- [ ] Merge Two Sorted Lists
 
-🧪 Run solutions using your preferred language compiler (Java, Python, C++)
+Recursion
+- [ ] Subsets
+- [ ] Permutations
+- [ ] N-Queens
 
-📊 Each solution includes:
+Stack & Queue
+- [ ] Next Greater Element
+- [ ] Sliding Window Maximum
+- [ ] Min Stack
 
-✅ Problem link or description
+Greedy
+- [ ] Activity Selection
+- [ ] Minimum Coins
+- [ ] Jump Game
 
-✅ Approach breakdown
+DP
+- [ ] Longest Increasing Subsequence
+- [ ] 0/1 Knapsack
+- [ ] Edit Distance
 
-✅ Code implementation
+Trees
+- [ ] Inorder Traversal
+- [ ] Level Order Traversal
+- [ ] Lowest Common Ancestor
 
-✅ Time & Space complexity analysis
+---
 
-🛠 Tools & Technologies
-VS Code – for writing and debugging
+## 🛠 Conventions
 
-Git & GitHub – for version control and collaboration
+- Structure: Topic-first, then problem-specific files.
+- Documentation: Markdown notes, diagrams (Mermaid) for visualization.
+- Coding practices: Readable, commented, complexity-aware.
+- Languages: Java & Python (primary). Some C++ may be present.
 
-Java & Python – primary languages used
+---
 
-Markdown & Mermaid – for documentation and visualization
+## 🤝 Contributing
 
-🤝 Contributions
-This is a personal learning archive, but:
+This is a personal learning archive, but contributions are welcome.
 
-💡 Suggestions are welcome
+- Found a better approach? Open an Issue or Pull Request.
+- Keep code clean and well-commented.
+- Follow folder and naming conventions when adding solutions.
 
-🛠 Found a better approach? Feel free to open an Issue or Pull Request
+---
 
-📌 Please follow standard coding practices and add comments for clarity
+## ⭐ Support
 
-⭐ Support
-If this helps you:
+If this repo helps you:
+- Star the repo to show appreciation
+- Share with peers preparing for interviews or learning DSA
 
-🌟 Star the repo to show appreciation
+---
 
-🔗 Share with peers preparing for interviews or learning DSA
+## 📜 License
 
-📺 Follow DevMind Hub for visual walkthroughs and quiz sets
-
-📜 License
-This project is licensed under the MIT License – feel free to use and adapt with attribution.
+This project is licensed under the MIT License — feel free to use and adapt with attribution.
