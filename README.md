@@ -26,16 +26,17 @@ Each solution includes:
 
 ```mermaid
 graph TD;
-    A[Learn the Basics] --> B[Arrays]
-    B --> C[Binary Search]
-    C --> D[Strings]
-    D --> E[Linked Lists]
-    E --> F[Recursion]
-    F --> G[Stack & Queue]
-    G --> H[Greedy]
-    H --> I[Dynamic Programming]
-    I --> J[Trees]
-    J --> K[Patterns]
+    A[Learn the Basics] --> B[Important Sorting Technique]
+    B --> C[Arrays]
+    C --> D[Binary Search]
+    D --> E[Strings]
+    E --> F[Linked Lists]
+    F --> G[Recursion]
+    G --> H[Stack & Queue]
+    H --> I[Greedy]
+    I --> J[Dynamic Programming]
+    J --> K[Trees]
+    K --> L[Patterns]
 ```
 
 ---
