@@ -13,7 +13,36 @@ class Solution{
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
         List<List<Integer>> ans = new ArrayList<>();
         int n = intervals.length;
-        int 
+        for(int i = 0 ; i < n ; i++){
+            int start = intervals[i][0];
+            int end = intervals[i][1];
+            int j = i + 1;
+            while(j < n && intervals[j][0] < end){
+                    end = Math.max(end , intervals[j][1]);
+                    j++;
+            }
+            ans.add(Arrays.asList(start , end));
+            i = j - 1;
+        }
+        return ans;
+    }
+
+    public int[][] merge(int[][] intervals) { // lead code sol 
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        int n = intervals.length;
+        int[][] arrlist = new int[n][2];
+        int r = 0;
+        for (int i = 0; i < n; i++) {
+            if (r == 0 || intervals[i][0] > arrlist[r - 1][1]) {
+                arrlist[r][0] = intervals[i][0];
+                arrlist[r][1] = intervals[i][1];
+                r++;
+            } else {
+                arrlist[r - 1][1] = Math.max(arrlist[r - 1][1], intervals[i][1]);
+            }
+
+        }
+        return Arrays.copyOf(arrlist, r);
     }
 }
 public class MergeOverlapping {
