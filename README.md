@@ -1,16 +1,24 @@
-Perfect! Here's an enhanced version of your README with professional badges and a visual roadmap to make your repository stand out:
+# 📘 Striver DSA Solutions — Chandrasish Bhattacharya
+
+A structured, topic-wise archive of solutions to the Striver DSA Sheet. Built for learners, interviewees, and educators with clean implementations, clear reasoning, and consistent organization.
 
 ---
 
-# 🚀 Striver DSA Sheet – Solved by Chandrasish
+## 🚀 Quick Start
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Chandrasish-Bhattacharya/Striver-DSA)
-![Languages](https://img.shields.io/github/languages/count/Chandrasish-Bhattacharya/Striver-DSA)
-![Top Language](https://img.shields.io/github/languages/top/Chandrasish-Bhattacharya/Striver-DSA)
-![Last Commit](https://img.shields.io/github/last-commit/Chandrasish-Bhattacharya/Striver-DSA)
-![Stars](https://img.shields.io/github/stars/Chandrasish-Bhattacharya/Striver-DSA?style=social)
+```bash
+# Clone the repository
+git clone https://github.com/Chandrasish-Bhattacharya/Striver-DSA.git
+cd Striver-DSA
 
-Welcome to my curated repository of solutions to the [Striver DSA Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/), a structured roadmap for mastering Data Structures and Algorithms. This archive is crafted for learners, interviewees, and educators alike.
+# Browse topic-wise folders and run solutions using Java or Python
+```
+
+Each solution includes:
+- Problem link or description
+- Approach breakdown
+- Code implementation
+- Time & Space complexity analysis
 
 ---
 
@@ -18,100 +26,120 @@ Welcome to my curated repository of solutions to the [Striver DSA Sheet](https:/
 
 ```mermaid
 graph TD;
-    A[Learn the Basics] --> B[Arrays]
-    B --> C[Binary Search]
-    C --> D[Strings]
-    D --> E[Linked Lists]
-    E --> F[Recursion]
-    F --> G[Stack & Queue]
-    G --> H[Greedy]
-    H --> I[Dynamic Programming]
-    I --> J[Trees]
-    J --> K[Patterns]
+    A[Learn the Basics] --> B[Important Sorting Technique]
+    B --> C[Arrays]
+    C --> D[Binary Search]
+    D --> E[Strings]
+    E --> F[Linked Lists]
+    F --> G[Recursion]
+    G --> H[Stack & Queue]
+    H --> I[Greedy]
+    I --> J[Dynamic Programming]
+    J --> K[Trees]
+    K --> L[Patterns]
 ```
 
 ---
 
-## 🗂️ Folder Structure
+## 📂 Folder Index
 
-```
-├── 01_Learn The Basics/
-├── 03_ARRAYS/
-├── 04_BS_1D,2DArrays_SearchSpace/
-│   └── 01_BS_ON1D/
-├── 05_Strings/
-├── 06_LinkedList/
-├── 07_Recursion/
-├── 09_StackandQueues/
-├── DP/
-├── GREEDY/
-├── PATTERNS/
-├── TREE/
-└── README.md
-```
-
----
-
-## 🧩 Topics Covered
-
-| Category            | Description |
-|---------------------|-------------|
-| Arrays              | Traversal, sorting, prefix/suffix logic |
-| Strings             | Palindromes, anagrams, pattern matching |
-| Linked Lists        | Reversal, cycle detection, merge operations |
-| Recursion           | Backtracking, base-case analysis |
-| Stack & Queue       | Monotonic stack, sliding window |
-| Binary Search       | Search space reduction on 1D/2D arrays |
-| Dynamic Programming | Memoization, tabulation, optimization |
-| Greedy              | Interval scheduling, coin problems |
-| Trees               | Traversals, BST operations, recursion |
-| Patterns            | Sliding window, two pointers, hashing |
+Folder | Coverage
+---|---
+01_Learn The Basics | Starter problems, fundamentals
+03_ARRAYS | Traversal, sorting, prefix/suffix logic
+04_BS_1D,2DArrays_SearchSpace/01_BS_ON1D | Binary search patterns
+05_Strings/Basics | String operations, algorithms
+06_LinkedList | Reversal, cycle detection, merging
+07_Recursion | Base cases, backtracking
+09_StackandQueues | Monotonic stacks, sliding window
+10_SlidingWindow&TwoPointerCombinedProblems/MediumProblems | Combined patterns
+15_Graphs_ConceptsAndProblems | Graph traversals, classical problems
+DP | Dynamic programming
+GREEDY | Greedy strategies and problems
+TREE | Binary trees, BST operations
+Some Infosys Question | Practice problems
 
 ---
 
-## ⚙️ How to Use
+## 📝 Problem Tracker
 
-```bash
-# Clone the repository
-git clone https://github.com/Chandrasish-Bhattacharya/Striver-DSA.git
+A lightweight checklist mapped to Striver’s sheet. Tick off items as you solve them.
 
-# Navigate into the project
-cd Striver-DSA
-```
+Arrays
+- [ ] Kadane’s Algorithm (Maximum Subarray Sum)
+- [ ] Two Sum
+- [ ] Merge Intervals
+- [ ] Rotate Matrix
 
-- 🔍 Browse topic-wise folders for code and explanations  
-- 🧪 Run solutions using your preferred language compiler (Java, Python, C++)  
-- 📊 Each solution includes:
-  - ✅ Problem link or description  
-  - ✅ Approach breakdown  
-  - ✅ Code implementation  
-  - ✅ Time & Space complexity analysis  
+Strings
+- [ ] Longest Palindromic Substring
+- [ ] Anagram Groups
+- [ ] String Matching (KMP)
+
+Binary Search
+- [ ] First/Last Occurrence
+- [ ] Peak Element
+- [ ] Search in Rotated Array
+
+Linked List
+- [ ] Reverse Linked List
+- [ ] Detect Cycle
+- [ ] Merge Two Sorted Lists
+
+Recursion
+- [ ] Subsets
+- [ ] Permutations
+- [ ] N-Queens
+
+Stack & Queue
+- [ ] Next Greater Element
+- [ ] Sliding Window Maximum
+- [ ] Min Stack
+
+Greedy
+- [ ] Activity Selection
+- [ ] Minimum Coins
+- [ ] Jump Game
+
+DP
+- [ ] Longest Increasing Subsequence
+- [ ] 0/1 Knapsack
+- [ ] Edit Distance
+
+Trees
+- [ ] Inorder Traversal
+- [ ] Level Order Traversal
+- [ ] Lowest Common Ancestor
 
 ---
 
-## 🛠 Tools Used
+## 🛠 Conventions
 
-- **VS Code** – for writing and debugging  
-- **Git & GitHub** – for version control and collaboration  
-- **Java & Python** – primary languages used  
+- Structure: Topic-first, then problem-specific files.
+- Documentation: Markdown notes, diagrams (Mermaid) for visualization.
+- Coding practices: Readable, commented, complexity-aware.
+- Languages: Java & Python (primary). Some C++ may be present.
 
 ---
 
-## 🤝 Contributions
+## 🤝 Contributing
 
-This is a personal learning archive, but:
-- 💡 Suggestions are welcome  
-- 🛠 Found a better approach? Feel free to open an Issue or Pull Request  
+This is a personal learning archive, but contributions are welcome.
+
+- Found a better approach? Open an Issue or Pull Request.
+- Keep code clean and well-commented.
+- Follow folder and naming conventions when adding solutions.
 
 ---
 
 ## ⭐ Support
 
-If this helps you:
-- 🌟 Star the repo to show appreciation  
-- 🔗 Share with peers preparing for interviews or learning DSA  
-- 📺 Follow [DevMind Hub](https://www.youtube.com/@devmindhub) for visual walkthroughs and quiz sets  
+If this repo helps you:
+- Star the repo to show appreciation
+- Share with peers preparing for interviews or learning DSA
 
 ---
 
-✨ _Happy Coding and Keep Building!_ ✨
+## 📜 License
+
+This project is licensed under the MIT License — feel free to use and adapt with attribution.
