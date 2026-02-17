@@ -1,6 +1,4 @@
 import java.util.Arrays;
-import java.util.Comparator;
-
 public class Job_sequencing_Problem {
 
     public int[] JobScheduling(int[][] Jobs) {
