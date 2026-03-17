@@ -14,7 +14,7 @@ public class binarystrings {
            sol(n , s + '1' , result);
         }
     }
-
+ 
 
      public static void main(String[] args) {
         // Input length n
