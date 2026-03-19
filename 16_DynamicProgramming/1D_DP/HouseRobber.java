@@ -39,7 +39,14 @@ public class HouseRobber {
         int notPick = Memoisation(arr, idx - 1, dp);
         return dp[idx] = Math.max(pick, notPick);
     }
-
+    public int tabulation(int[] arr ,int[] dp){
+        dp[0] = 0;
+        dp[1] = Math.max(arr[0], arr[1]);
+        for(int i = 2 ; i < arr.length ; i++){
+            dp[i] = Math.max(arr[i] + dp[i - 2], dp[i - 1]);
+        }
+        return dp[arr.length - 1];
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine().trim().replaceAll("[\\[\\](){}<>]", " ");
@@ -53,7 +60,7 @@ public class HouseRobber {
         HouseRobber sol = new HouseRobber();
         int[] dp = new int[idx + 1];
         Arrays.fill(dp, -1);
-        System.out.print(sol.Memoisation(arr, idx - 1, dp));
+        System.out.print(sol.tabulation(arr, dp));
         sc.close();
     }
 }
